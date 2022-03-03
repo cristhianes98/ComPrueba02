@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* CREO EL TAMAÑO DE LA PÁGINA Y EL FONDO */
+body
+{
+    font-family: 'poppins';
+    color: rgb(255, 255, 255);
+    padding-bottom: 100em;
+}
+/* LE DOY LA DISTACIA ENTRE EL TITULO Y EL TEXTO Y EL TAMAÑO AL TEXTO */
+p
+{
+    margin: 2em 0;
+    font-size: 150%;
+}
+/* CREO EL BOTON DE LA SEGUNDA APARTADO */
+a
+{
+    border: 2px solid rgb(252, 252, 252);
+    color: aliceblue;
+    padding: 0.6em 3.5em;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 0.9em;
+}
+/* TAMAÑO DEL PRIMER TITULO */
+.q
+{
+    font-weight: 600;
+    font-size: 5em;
+
+}
+/* PRIMERA SESION*/
+.banner
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-image: url("img.jpg");
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    background-position: center;
+    
+
+}
+.banner_description
+{
+    width: 90%;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    
+    
+}
+/* SEGUNDA SESION */
+.banner02
+{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-image: url("img2.jpg");
+    background-color: aqua;
+    background-position: center;
+    
+}
+
+.banner02_description
+{
+    width: 90%;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+}
+/*COLOR DEL PRIMER TITULO*/
+.p
+{
+    color: brown;
+}
